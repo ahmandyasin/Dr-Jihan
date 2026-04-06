@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Jihan Taher Haji Al-Doski</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dr. Jihan Taher Haji Al-Doski — Author of 'The Art of War in the Ayyubid Era', a study of military tactics, leadership, and strategy during the Ayyubid period." />
+    <meta name="keywords" content="Dr. Jihan Taher Haji Al-Doski, The Art of War in the Ayyubid Era, Ayyubid military history, Saladin, Ayyubid strategy, Kurdish historian, Islamic military history" />
+    <meta name="author" content="Dr. Jihan Taher Haji Al-Doski" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dr. Jihan Taher Haji Al-Doski — The Art of War in the Ayyubid Era" />
+    <meta property="og:description" content="Explore the book 'The Art of War in the Ayyubid Era' by Dr. Jihan Taher Haji Al-Doski — a detailed study of military tactics and leadership during the Ayyubid period." />
+    <meta property="og:site_name" content="Dr. Jihan Taher Haji Al-Doski" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dr. Jihan Taher Haji Al-Doski — The Art of War in the Ayyubid Era" />
+    <meta name="twitter:description" content="A study of military tactics, strategies, and leadership during the Ayyubid era by Dr. Jihan Taher Haji Al-Doski." />
+
+    <link rel="canonical" href="/" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ══ Navbar ══ -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <h1 class="nav-logo"></h1>
+        <div class="nav-right">
+          <!-- Language Switcher -->
+          <div class="lang-switcher" id="lang-switcher">
+            <button class="lang-toggle-btn" id="lang-toggle-btn" aria-label="Select language">
+              <span id="lang-btn-text">EN</span> &#8964;
+            </button>
+            <div class="lang-dropdown hidden" id="lang-dropdown">
+              <button class="lang-btn active" data-lang="en">EN</button>
+              <button class="lang-btn" data-lang="ku">&#x06A9;&#x0648;&#x0631;&#x062F;&#x06CC;</button>
+              <button class="lang-btn" data-lang="ar">&#x0639;&#x0631;&#x0628;&#x064A;</button>
+              <button class="lang-btn" data-lang="tr">TR</button>
+            </div>
+          </div>
+          <!-- Hamburger -->
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+        </div>
+      </div>
+
+      <!-- Nav Links -->
+      <div class="nav-links hidden" id="nav-links">
+        <a href="#about"   class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#extract" class="nav-link" data-i18n="nav.extract">Book Extract</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- ══ Main Content ══ -->
+    <div class="main-container">
+
+      <!-- Hero -->
+      <header class="hero">
+        <div class="hero-content reveal">
+          <h1 class="hero-author" data-i18n="hero.author">Dr. Jihan Taher Haji Al-Doski</h1>
+          <div class="hero-actions">
+            <a href="#about" class="btn-primary" data-i18n="hero.more">More</a>
+            <div class="hero-book-info">
+              <h3 data-i18n="hero.bookTitle">About the Book: &#x201C;The Art of War in the Ayyubid Era&#x201D;</h3>
+              <p data-i18n="hero.bookDesc">is a detailed study of military tactics and leadership during a pivotal time in history.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="card reveal">
+          <h2 class="card-title" data-i18n="about.title">About Me</h2>
+          <p class="about-text" data-i18n="about.text"></p>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="section">
+        <div class="card reveal">
+          <h2 class="card-title" data-i18n="gallery.title">Cover Book</h2>
+          <div class="gallery-grid">
+            <div class="book-mockup">
+              <div class="book" onclick="openLightbox('public/image/2.jpg')" role="button" aria-label="View book cover">
+                <div class="book__face book__front" style="background-image: url('public/image/2.jpg');"></div>
+              </div>
+            </div>
+            <div class="book-mockup">
+              <div class="book" onclick="openLightbox('public/image/1.jpg')" role="button" aria-label="View book cover">
+                <div class="book__face book__front" style="background-image: url('public/image/1.jpg');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Extract -->
+      <section id="extract" class="section">
+        <div class="card reveal" dir="ltr" style="text-align:left;">
+          <h2 class="card-title" data-i18n="extract.title">Study Summary: The Art of War in the Ayyubid Era</h2>
+          <ol class="extract-list">
+            <li>
+              <strong data-i18n="extract.section1">The Essence of Ayyubid Military Doctrine</strong>
+              <ul>
+                <li data-i18n="extract.section1a">Strategic Balance: …</li>
+                <li data-i18n="extract.section1b">Army Diversity: …</li>
+              </ul>
+            </li>
+            <li>
+              <strong data-i18n="extract.section2">Military and Logistical Organization</strong>
+              <ul>
+                <li data-i18n="extract.section2a">Funding: …</li>
+                <li data-i18n="extract.section2b">Morale: …</li>
+              </ul>
+            </li>
+            <li>
+              <strong data-i18n="extract.section3">Tools of Combat and Weaponry</strong>
+              <ul>
+                <li data-i18n="extract.section3a">Light Weapons: …</li>
+                <li data-i18n="extract.section3b">Heavy Weapons: …</li>
+                <li data-i18n="extract.section3c">Naval Power: …</li>
+              </ul>
+            </li>
+            <li>
+              <strong data-i18n="extract.section4">Tactics and Combat Arts</strong>
+              <ul>
+                <li data-i18n="extract.section4a">Scorched Earth: …</li>
+                <li data-i18n="extract.section4b">Psychological Warfare: …</li>
+                <li data-i18n="extract.section4c">Fortifications: …</li>
+              </ul>
+            </li>
+            <li>
+              <strong data-i18n="extract.section5">Key Historical Sources</strong>
+              <ul>
+                <li data-i18n="extract.section5a">This study draws on …</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="card reveal">
+          <div class="contact-inner">
+            <h2 class="card-title" data-i18n="contact.title">Contact</h2>
+            <p data-i18n="contact.text">For inquiries and orders, contact me on WhatsApp.</p>
+            <a
+              href="https://wa.me/9647510560782"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary"
+            >
+              <i class="fab fa-whatsapp" style="color:#25D366; font-size:1.2rem;"></i>
+              <span data-i18n="contact.btn">Contact Me on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /.main-container -->
+
+    <!-- ══ Lightbox ══ -->
+    <div class="lightbox hidden" id="lightbox">
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+      <img src="" alt="Book cover" id="lightbox-img" />
+    </div>
+
+    <!-- ══ Footer ══ -->
+    <footer class="footer">
+      <small>
+        <span data-i18n="footer.designed">&#169; designed by</span>
+        <br />
+        <a
+          href="https://instagram.com/mohammed.i.husein"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-link"
+        >
+          <i class="fab fa-instagram" style="color:#E1306C; font-size:1.1rem;"></i>
+          <span data-i18n="footer.name">mohammed</span>
+        </a>
+      </small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
